@@ -1,0 +1,39 @@
+{
+  "name": "colorforge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A browser-only color palette generator with mathematical harmonies and copyable values",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "type-check": "vue-tsc -b --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^5.0.3",
+    "vue-tsc": "^2.2.0"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "color-generator",
+    "harmonies",
+    "complementary",
+    "analogous",
+    "triadic",
+    "split-complementary",
+    "monochromatic",
+    "vue",
+    "vite"
+  ],
+  "author": "Muttaqi",
+  "license": "MIT"
+}
